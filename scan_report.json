@@ -1,0 +1,62 @@
+{
+  "project": "Mini Vulnerability Scanner",
+  "target": "127.0.0.1",
+  "resolved_ip": "127.0.0.1",
+  "scan_time_utc": "2026-10-28T17:27:30.333712+00:00",
+  "ports": [
+    {
+      "port": 21,
+      "service": "FTP",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 22,
+      "service": "SSH",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 23,
+      "service": "Telnet",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 80,
+      "service": "HTTP",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 443,
+      "service": "HTTPS",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 3306,
+      "service": "MySQL",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 5432,
+      "service": "PostgreSQL",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 8080,
+      "service": "HTTP-alt",
+      "state": "closed or filtered"
+    },
+    {
+      "port": 8443,
+      "service": "HTTPS-alt",
+      "state": "closed or filtered"
+    }
+  ],
+  "http": null,
+  "findings": [],
+  "summary": {
+    "High": 0,
+    "Medium": 0,
+    "Low": 0,
+    "Info": 0
+  },
+  "note": "Educational checks only; manually verify findings. No exploitation is performed."
+}
